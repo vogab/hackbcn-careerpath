@@ -1,0 +1,19 @@
+{% extends 'uploader/base.html' %}
+
+{% block title %}Home - Career Path Finder{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">What job are you made for?</h1>
+    <p class="lead">Upload a picture and get personalized career recommendations.</p>
+    <hr class="my-4">
+    <div>
+        <p>Click the button below to get started.</p>
+        <a class="btn btn-primary btn-lg" href="{% url 'new-request' %}" role="button">Get Started</a>
+    </div>
+    <div class="mt-4">
+        <p>Or, check out the <a href="{% url 'requests' %}">list of previous requests</a>.</p>
+    </div>
+
+</div>
+{% endblock %}

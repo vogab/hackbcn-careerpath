@@ -1,0 +1,16 @@
+{% extends 'uploader/base.html' %}
+
+{% block title %}Upload - Career Path Finder{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="display-4">New Upload</h1>
+    <p class="lead">Upload a picture and get personalized career recommendations.</p>
+    <hr class="my-4">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}

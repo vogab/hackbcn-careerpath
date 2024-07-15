@@ -1,0 +1,39 @@
+{% extends 'uploader/base.html' %}
+
+{% load custom_filters %}  <!-- Load the custom filter -->
+
+{% block title %}Request - Career Path Finder{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="display-4">See your career path</h1>
+    {% comment %} <p class="lead">Here is your response.</p> {% endcomment %}
+    <hr class="my-4">
+    {% if data %}
+    <p class="lead">{{ data.description_and_context }}</p>
+    <hr class="my-4">
+    <h2>Professions</h2>
+    <ul>
+        {% for profession in data.professions %}
+            <li>
+                <h3>{{ profession.title }} (Suitability: {{ profession.suitability }}%)</h3>
+                <p>{{ profession.explanation }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <pre class="wrapped">{{ request.response|escape|bold_text|safe }}</pre>
+    {% endif %}
+    <!-- Add the image of request.image -->
+    <img src="{{ request.image.url }}" class="img-fluid" alt="Request Image">
+</div>
+{% endblock %}
+
+{% block extra_head %}
+<style>
+    .wrapped {
+        white-space: pre-wrap;
+        word-wrap: break-word; /* Ensures long words break correctly */
+    }
+</style>
+{% endblock %}
