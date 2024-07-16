@@ -11,10 +11,8 @@ Feel free to play with the system, like this duck does.
 
 If you want to be more serious about career exploration, you can also indicate your tastes and preferences to get even more personalized job recommendations.
 
+A project made by [Arnau Soler]((https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACi9dTwBxzq21V5BaxnfEIK692QoilXThaY&keywords=Arnau%20Soler%20Recasens&origin=ENTITY_SEARCH_HOME_HISTORY&sid=%40OE)), Enric, [Gabriel Vogel]([url](https://www.linkedin.com/in/g-vogel/)) and [Nick Kobets]((https://www.linkedin.com/in/nick-kobets/)) during the Hackathon organized by HackBcn.
 
-
-
-
-A project made by [Arnau Soler]([url](https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACi9dTwBxzq21V5BaxnfEIK692QoilXThaY&keywords=Arnau%20Soler%20Recasens&origin=ENTITY_SEARCH_HOME_HISTORY&sid=%40OE)), Enric, [Gabriel Vogel]([url](https://www.linkedin.com/in/g-vogel/)) and [Nick Kobets]([url](https://www.linkedin.com/in/nick-kobets/)).
+You can check our presentation video [here](https://www.hackbarna.com/en/projects/Ducktors).
 
 We used Django and back and front end, and chatgpt 4o with prompt engineering for image processing and personalized job suggestions.
