@@ -1,11 +1,11 @@
 # hackbcn-careerpath
-A website for finding the jobs that are made for you based on uploading a picture of yourself.
+A website for finding the jobs that are made for you just based on a picture of yourself.
 
 Basically, you upload a picture of you on the website and get a description of several jobs that would suit you, with detailed explanations of the reasons why.
 
 You can also select to have a playful tone for the answer, in order to have fun while exploring new career paths!
 
-Feel free to play with the system, like this duck does.
+Feel free to play with the system, like this duck did.
 
 ![a duck programmer](https://github.com/vogab/hackbcn-careerpath/blob/main/pict/duck_coder.png)
 
