@@ -15,4 +15,4 @@ A project made by [Arnau Soler](https://www.linkedin.com/search/results/all/?her
 
 You can check our presentation video [here](https://www.hackbarna.com/en/projects/Ducktors).
 
-We used Django and back and front end, and chatgpt 4o with prompt engineering for image processing and personalized job suggestions.
+We used Django for back and front end, and chatgpt 4o with prompt engineering for image processing and personalized job suggestions.
